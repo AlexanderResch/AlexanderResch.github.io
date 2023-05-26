@@ -18,14 +18,14 @@
 </a-assets>
 <a-sky src="#sky"></a-sky>
 <a-plane material="color:#FFFFFF; src: #worldmapfloor;" rotation="-90 0 0" scale="360 180 0" class="not-clickable"></a-plane>
-<a-entity geometry="primitive: plane;" position="0 0.01 0" rotation="-90 0 0" scale="360 180 0" material="color: yellow; shader: flat" geojson="src: #geo-json; topologyObject: countries; projection: geoEquirectangular" class="not-clickable"></a-entity>
+<a-entity geometry="primitive: plane;" position="0 0.02 0" rotation="-90 0 0" scale="360 180 0" material="color: yellow; shader: flat" geojson="src: #geo-json; topologyObject: countries; projection: geoEquirectangular" class="not-clickable"></a-entity>
 <a-entity position="0 4 5">
 <a-camera>
-<!--<a-cursor id="cursor" color="#3B3B3B" raycaster="objects: .clickable">
+<a-cursor id="cursor" color="#3B3B3B" raycaster="objects: .clickable">
 <a-text position="0 0.2 0" width="1" color="white" align="center" id="texthud1" value="Land" visible="false">
 <a-text position="0 -0.05 0" width="1" color="white" align="center" id="texthud2" value="Hoehe" visible="false"></a-text>
 </a-text>
-</a-cursor>-->
+</a-cursor>
 </a-camera>
 </a-entity><a-cylinder color="#bbb88f" height=1.0230000000000001 radius="0.25" position="67.709953 0.5115000000000001 -33.93911"
  event-set__enter1="_event: mouseenter; _target: #texthud1; value:Afghanistan; visible: true; "
