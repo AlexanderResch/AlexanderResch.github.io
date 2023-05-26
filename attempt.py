@@ -1,7 +1,7 @@
 import csv
-with open("assets/Fussabdruck_konvertiert.csv") as csvdatei:
+with open("Fussabdruck_konvertiert.csv") as csvdatei:
     csv_reader_object = csv.DictReader(csvdatei)
-    file= open("programm.html","w")
+    file= open("Visualisierung2.html","w")
     #Head und Sources
     file.write('<html>\n<head>\n<script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>'
     +'\n<script src="https://unpkg.com/aframe-globe-component/dist/aframe-globe-component.min.js"></script>'
@@ -13,11 +13,11 @@ with open("assets/Fussabdruck_konvertiert.csv") as csvdatei:
     +'\n<script src="https://unpkg.com/aframe-event-set-component@4.2.1/dist/aframe-event-set-component.min.js"></script>\n</head>'
 
     #Body
-    +'\n<body>\n<a-scene>\n<a-assets>\n<a-assets-item id="geo-json" class="not-clickable" src="assets/world-50m.v1.json"></a-asset-item>'
+    +'\n<body>\n<a-scene>\n<a-assets>\n<a-assets-item id="geo-json" src="assets/world-50m.v1.json"></a-asset-item>'
     +'\n<img id="sky" src="assets/stars.jpg"/>\n<img id="worldmapfloor" src="assets/earthmap1.jpg"/>\n</a-assets>'
     +'\n<a-sky src="#sky"></a-sky>'
     +'\n<a-plane material="color:#FFFFFF; src: #worldmapfloor;" rotation="-90 0 0" scale="360 180 0" class="not-clickable"></a-plane>'
-    +'\n<a-entity geometry="primitive: plane;" position="0 0.01 0" rotation="-90 0 0" scale="360 180 0" material="color: yellow; shader: flat" geojson="src: #geo-json; topologyObject: countries; projection: geoEquirectangular" class="not-clickable"></a-entity>'
+    +'\n<a-entity geometry="primitive: plane;" class="not-clickable" position="0 0.01 0" rotation="-90 0 0" scale="360 180 0" material="color: yellow; shader: flat" geojson="src: #geo-json; topologyObject: countries; projection: geoEquirectangular" class="not-clickable"></a-entity>'
     +'\n<a-entity position="0 4 5">\n<a-camera>\n<a-cursor id="cursor" color="#3B3B3B" raycaster="objects: .clickable">'
     +'\n<a-text position="0 0.2 0" width="1" color="white" align="center" id="texthud1" value="Land" visible="false">'
     +'\n<a-text position="0 -0.05 0" width="1" color="white" align="center" id="texthud2" value="Hoehe" visible="false"></a-text>'
