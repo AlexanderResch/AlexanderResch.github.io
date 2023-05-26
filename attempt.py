@@ -13,7 +13,7 @@ with open("assets/Fussabdruck_konvertiert.csv") as csvdatei:
     +'\n<script src="https://unpkg.com/aframe-event-set-component@4.2.1/dist/aframe-event-set-component.min.js"></script>\n</head>'
 
     #Body
-    +'\n<body>\n<a-scene>\n<a-assets>\n<a-assets-item id="geo-json" src="assets/world-50m.v1.json"></a-asset-item>'
+    +'\n<body>\n<a-scene>\n<a-assets>\n<a-assets-item id="geo-json" class="not-clickable" src="assets/world-50m.v1.json"></a-asset-item>'
     +'\n<img id="sky" src="assets/stars.jpg"/>\n<img id="worldmapfloor" src="assets/earthmap1.jpg"/>\n</a-assets>'
     +'\n<a-sky src="#sky"></a-sky>'
     +'\n<a-plane material="color:#FFFFFF; src: #worldmapfloor;" rotation="-90 0 0" scale="360 180 0" class="not-clickable"></a-plane>'
@@ -33,7 +33,7 @@ with open("assets/Fussabdruck_konvertiert.csv") as csvdatei:
         latitude=row["Breitengrade"]
         longitude=row["Laengengrade"]
         height_position=float(bar_height)/2
-        text_position=str(height_position*(-1)+0.01)
+        text_position=str(height_position*(-1)+0.02)
         
         str_height_position=str(height_position)
         if (latitude[0]=="-"):
@@ -57,7 +57,7 @@ with open("assets/Fussabdruck_konvertiert.csv") as csvdatei:
         #box-bars
         #string='<a-box color="red" depth="0.3" height='+footprint+' width="0.3" position="'+latitude+ ' '+str_height_position +' '+ longitude+'"'+'\n event-set__enter1="_event: mouseenter; _target: #texthud1; value:'+country+'; visible: true; "'+'\nevent-set__enter2= "_event: mouseenter; _target: #texthud2; value:'+footprint+'; visible: true;"'+'\nevent-set__leave1="_event: mouseleave; _target:#texthud1; visible:false;"'+'\nevent-set__leave2="_event: mouseleave; _target:#texthud2; visible:false;"'+'\nclass="clickable"></a-box>'
         #cylinder-bars
-        string='<a-cylinder color="'+ color +'" height='+bar_height+' radius="0.25" position="'+longitude+ ' '+str_height_position +' '+ latitude+'"'+'\n event-set__enter1="_event: mouseenter; _target: #texthud1; value:'+country+'; visible: true; "'+'\nevent-set__enter2= "_event: mouseenter; _target: #texthud2; value:'+footprint + ' gha/person'+'; visible: true;"'+'\nevent-set__leave1="_event: mouseleave; _target:#texthud1; visible:false;"'+'\nevent-set__leave2="_event: mouseleave; _target:#texthud2; visible:false;"'+'\nclass="clickable">\n<a-text position="0 ' + text_position +' 0.35" color="black" width="3" align="center" rotation="-90 0 0" value="'+country+'" visible="true" baseline="top" wrap-count="12"> \n</a-cylinder>'
+        string='<a-cylinder color="'+ color +'" height='+bar_height+' radius="0.25" position="'+longitude+ ' '+str_height_position +' '+ latitude+'"'+'\n event-set__enter1="_event: mouseenter; _target: #texthud1; value:'+country+'; visible: true; "'+'\nevent-set__enter2= "_event: mouseenter; _target: #texthud2; value:'+footprint + ' gha/person'+'; visible: true;"'+'\nevent-set__leave1="_event: mouseleave; _target:#texthud1; visible:false;"'+'\nevent-set__leave2="_event: mouseleave; _target:#texthud2; visible:false;"'+'\nclass="clickable">\n<a-text position="0 ' + text_position +' 0.35" class="not-clickable" color="black" width="3" align="center" rotation="-90 0 0" value="'+country+'" visible="true" baseline="top" wrap-count="12"> \n</a-cylinder>'
         file.write(string+'\n')
         print(row)
     
