@@ -45,13 +45,7 @@
     const globeEntity = document.getElementById('earth');
     function getWorldData() {
       d3.csv("Fussabdruck_konvertiert.csv").then(function (data) {
-        /*var a= data => data.TotalCases;
-        alert(data => data.TotalCases);
-        if(data.TotalCases>=1000){
-              a="red";
-        }else{
-              a="yellow";
-        }*/
+        
         globeEntity.setAttribute('globe', {
           pointsData: data,
           pointLat: data => data.Breitengrade,
@@ -71,15 +65,7 @@
           labelResolution: 5,
           desc: ({ data: data }) => '${data.Land} , Cases: ${(data.Oekologischer_Fussabdruck)}',
         });
-        /*if(data.TotalCases>=20000){
-          globe.Entity.setAttribute('globe',{
-            pointColor:data => "red";
-          });
-        }else{
-          globe.Entity.setAttribute('globe',{
-            pointColor:data => "yellow";
-          });
-        }*/
+    
       });
     }
     getWorldData();
