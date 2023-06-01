@@ -25,7 +25,7 @@ Dies ist der Datensatz, der in den Visualisierungen verwendet wird um die Balken
 
 <h3>Spalten und Lizenzen</h3>
 <h4>Land:</h4>
-Die Länderbezeichnungen wurden gemeinsam mit dem ökologischen Fußabdruck vom <a href="https://data.footprintnetwork.org/#/">Global Footprint Network</a> zur verfügung gestellt und übernommen, und unterliegen der <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Lizenz.
+Die Länderbezeichnungen wurden gemeinsam mit dem ökologischen Fußabdruck vom <a href="https://data.footprintnetwork.org/#/">Global Footprint Network</a> zur Verfügung gestellt und übernommen, und unterliegen der <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Lizenz.
 
 <h4>Breitengrade:</h4>
 Die Breitengrade der relevanten Länder wurden aus dem Git-Repository von Google übernommen und unterliegen der 'BSD 3-Clause "New" or "Revised" Lizenz'.
@@ -38,5 +38,5 @@ Copyright 2018, Google Inc.
 All rights reserved.
 
 <h4>Oekologischer_Fussabdruck:</h4>
-Die ökologischen Fußabdrücke wurden gemeinsam mit den Länderbezeichnungen vom <a href="https://data.footprintnetwork.org/#/">Global Footprint Network</a> zur verfügung gestellt und übernommen, und unterliegen der <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Lizenz.
+Die ökologischen Fußabdrücke wurden gemeinsam mit den Länderbezeichnungen vom <a href="https://data.footprintnetwork.org/#/">Global Footprint Network</a> zur Verfügung gestellt und übernommen, und unterliegen der <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Lizenz.
 
