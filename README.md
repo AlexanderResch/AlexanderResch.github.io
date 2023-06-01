@@ -10,14 +10,10 @@ Python-Programm um die 2. Visualisierung zu erzeugen. Es wurde ein Python-Skript
 
 <h2>Visualisierung1.html</h2>
 Die Fußabdrücke der einbezogenen Länder werden in dieser Visualisierung durch Balken auf einem Globus dargestellt. Bei der Umsetzung wurde der von <a href="https://github.com/vasturiano/aframe-globe-component/tree/master">Vasco Asturiano</a> veröffentlichte Globe-Component verwendet. Die veröffentlichten Daten unterliegen der <a href="https://de.wikipedia.org/wiki/MIT-Lizenz">MIT License</a> und aus diesem Grund muss der Urheber erwähnt werden. 
-Copyright (c) 2019 Vasco Asturiano
-
-Die Visualisierung kann <a href="https://alexanderresch.github.io/Visualisierung1.html">hier</a> als Website aufgerufen werden.
+Copyright (c) 2019 Vasco Asturiano \n\nDie Visualisierung kann <a href="https://alexanderresch.github.io/Visualisierung1.html">hier</a> als Website aufgerufen werden.
 
 <h2>Visualisierung2.html</h2>
-In dieser Visualisierung wird der ökologische Fußabdruck der berücksichtigten Länder im Layout einer Landkarte auf dem Boden mit Balken in der höhe des Fußabdrucks abgebildet. Dem Benutzer ist es möglich durch den Blick auf die Balken, in die genaue höhe des Fußabdrucks einzusehen. Diese Datei wurde durch ein Python-Programm erzeugt, welches sich in der Datei "createVS.py" befindet.
-
-Die Visualisierung kann <a href="https://alexanderresch.github.io/Visualisierung2.html">hier</a> als Website aufgerufen werden.
+In dieser Visualisierung wird der ökologische Fußabdruck der berücksichtigten Länder im Layout einer Landkarte auf dem Boden mit Balken in der höhe des Fußabdrucks abgebildet. Dem Benutzer ist es möglich durch den Blick auf die Balken, in die genaue höhe des Fußabdrucks einzusehen. Diese Datei wurde durch ein Python-Programm erzeugt, welches sich in der Datei "createVS.py" befindet. \n\nDie Visualisierung kann <a href="https://alexanderresch.github.io/Visualisierung2.html">hier</a> als Website aufgerufen werden.
 
 
 <h2>Fussabdruck_konvertiert.csv</h2>
