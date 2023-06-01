@@ -9,7 +9,7 @@ In den assets befinden sich die verwendeten Bilder und Ressourcen, die zur Darst
 Python-Programm um die 2. Visualisierung zu erzeugen. Es wurde ein Python-Skript geschrieben, dass die HTML-Datei der 2. Visualisierung erzeugt, um den Aufwand der erzeugung der Balken der Darstellung zu verringern.
 
 <h2>Visualisierung1.html</h2>
-Die Fußabdrücke der einbezogenen Länder werden in dieser Visualisierung durch Balken auf einem Globus dargestellt. Bei der Umsetzung wurde der von Vasco Asturiano veröffentlichte Globe-Component verwendet. Die veröffentlichten Daten unterliegen der MIT License und aus diesem Grund muss der Urheber erwähnt werden. 
+Die Fußabdrücke der einbezogenen Länder werden in dieser Visualisierung durch Balken auf einem Globus dargestellt. Bei der Umsetzung wurde der von <a href="https://github.com/vasturiano/aframe-globe-component/tree/master">Vasco Asturiano</a> veröffentlichte Globe-Component verwendet. Die veröffentlichten Daten unterliegen der <a href="https://de.wikipedia.org/wiki/MIT-Lizenz">MIT License</a> und aus diesem Grund muss der Urheber erwähnt werden. 
 Copyright (c) 2019 Vasco Asturiano
 
 Die Visualisierung kann <a href="https://alexanderresch.github.io/Visualisierung1.html">hier</a> als Website aufgerufen werden.
@@ -28,12 +28,12 @@ Dies ist der Datensatz, der in den Visualisierungen verwendet wird um die Balken
 Die Länderbezeichnungen wurden gemeinsam mit dem ökologischen Fußabdruck vom <a href="https://data.footprintnetwork.org/#/">Global Footprint Network</a> zur Verfügung gestellt und übernommen, und unterliegen der <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Lizenz.
 
 <h4>Breitengrade:</h4>
-Die Breitengrade der relevanten Länder wurden aus dem Git-Repository von Google übernommen und unterliegen der 'BSD 3-Clause "New" or "Revised" Lizenz'.
+Die Breitengrade der relevanten Länder wurden aus dem <a href="https://github.com/google/dspl/blob/master/samples/google/canonical/countries.csv">Git-Repository von Google</a> übernommen und unterliegen der <a href="https://choosealicense.com/licenses/bsd-3-clause/">BSD 3-Clause "New" or "Revised" Lizenz</a>.
 Copyright 2018, Google Inc.
 All rights reserved.
 
 <h4>Laengengrade:</h4>
-Die Längengrade der relevanten Länder wurden aus dem Git-Repository von Google übernommen und unterliegen der 'BSD 3-Clause "New" or "Revised" Lizenz'.
+Die Längengrade der relevanten Länder wurden aus dem <a href="https://github.com/google/dspl/blob/master/samples/google/canonical/countries.csv">Git-Repository von Google</a> übernommen und unterliegen der <a href="https://choosealicense.com/licenses/bsd-3-clause/">BSD 3-Clause "New" or "Revised" Lizenz</a>.
 Copyright 2018, Google Inc.
 All rights reserved.
 
