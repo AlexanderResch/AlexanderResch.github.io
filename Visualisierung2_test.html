@@ -1,6 +1,6 @@
 <html>
 <head>
-<script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
 <script src="https://unpkg.com/aframe-geojson-component/dist/aframe-geojson-component.min.js"></script>
 <script src="https://unpkg.com/aframe-event-set-component@4.2.1/dist/aframe-event-set-component.min.js"></script>
 </head>
@@ -12,8 +12,8 @@
 <img id="worldmapfloor" src="assets/earthmap1.jpg"/>
 </a-assets>
 <a-sky src="#sky"></a-sky>
-<a-plane material="color:#FFFFFF; src: #worldmapfloor;" rotation="-90 0 0" scale="360 180 0" class="not-clickable"></a-plane>
-<a-entity geometry="primitive: plane;" class="not-clickable" position="0 0.01 0" rotation="-90 0 0" scale="360 180 0" material="color: yellow; shader: flat" geojson="src: #geo-json; topologyObject: countries; projection: geoEquirectangular" class="not-clickable"></a-entity>
+<a-plane material="color:#FFFFFF; src: #worldmapfloor;" position="0 0 0" rotation="-90 0 0" scale="360 180 0" class="not-clickable"></a-plane>
+<a-entity geometry="primitive: plane;" class="not-clickable" position="0 0.1 0" rotation="-90 0 0" scale="360 180 0" material="color: yellow; shader: flat" geojson="src: #geo-json; topologyObject: countries; projection: geoEquirectangular" class="not-clickable"></a-entity>
 <a-entity position="0 4 5">
 <a-camera>
 <a-cursor id="cursor" color="#3B3B3B" raycaster="objects: .clickable">
