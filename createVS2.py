@@ -4,16 +4,11 @@ with open("Fussabdruck_konvertiert.csv") as csvdatei:
     file= open("Visualisierung2.html","w")
     #Head und Sources
     file.write('<html>\n<head>\n<script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>'
-    +'\n<script src="https://unpkg.com/aframe-globe-component/dist/aframe-globe-component.min.js"></script>'
-    +'\n<script src="https://unpkg.com/aframe-geojson-component/dist/aframe-geojson-component.min.js"></script>'
-    +'\n<script src="https://cdn.rawgit.com/tizzle/aframe-orbit-controls-component/v0.1.14/dist/aframe-orbit-controls-component.min.js"></script>'
-    +'\n<script src="https://d3js.org/d3.v6.min.js"></script>'
-    +'\n<script src="https://d3js.org/d3-dsv.v2.min.js"></script>'
-    +'\n<script src="https://d3js.org/d3-fetch.v2.min.js"></script>' 
+    +'\n<script src="https://unpkg.com/aframe-geojson-component/dist/aframe-geojson-component.min.js"></script>' 
     +'\n<script src="https://unpkg.com/aframe-event-set-component@4.2.1/dist/aframe-event-set-component.min.js"></script>\n</head>'
 
     #Body
-    +'\n<body>\n<a-scene>\n<a-assets>\n<a-assets-item id="geo-json" src="assets/world-50m.v1.json"></a-asset-item>'
+    +'\n<body>\n<a-scene renderer="antialias:true" vr-mode-ui="enabled: true">\n<a-assets>\n<a-assets-item id="geo-json" src="assets/world-50m.v1.json"></a-asset-item>'
     +'\n<img id="sky" src="assets/stars.jpg"/>\n<img id="worldmapfloor" src="assets/earthmap1.jpg"/>\n</a-assets>'
     +'\n<a-sky src="#sky"></a-sky>'
     +'\n<a-plane material="color:#FFFFFF; src: #worldmapfloor;" rotation="-90 0 0" scale="360 180 0" class="not-clickable"></a-plane>'
