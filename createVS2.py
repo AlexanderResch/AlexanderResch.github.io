@@ -3,7 +3,7 @@ with open("Fussabdruck_konvertiert.csv") as csvdatei:
     csv_reader_object = csv.DictReader(csvdatei)
     file= open("Visualisierung2.html","w")
     #Head und Sources
-    file.write('<html>\n<head>\n<script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>'
+    file.write('<html>\n<head>\n<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>'
     +'\n<script src="https://unpkg.com/aframe-geojson-component/dist/aframe-geojson-component.min.js"></script>' 
     +'\n<script src="https://unpkg.com/aframe-event-set-component@4.2.1/dist/aframe-event-set-component.min.js"></script>\n</head>'
 
