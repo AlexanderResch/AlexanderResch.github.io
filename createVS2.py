@@ -9,7 +9,7 @@ with open("Fussabdruck_konvertiert.csv") as csvdatei:
     +'\n<script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.0.0/dist/aframe-extras.min.js"></script>\n<head>'
     #Body
     +'\n<body>\n<a-scene vr-mode-ui="cardboardModeEnabled:true"><!--renderer="antialias:true"-->\n<a-assets>\n<a-assets-item id="geo-json" src="assets/world-50m.v1.json"></a-asset-item>'
-    +'\n<img id="sky" src="assets/stars.jpg"/>\n<img id="worldmapfloor" src="assets/earthmap1.jpg"/>\n</a-assets>'
+    +'\n<img id="sky" src="assets/sky.jpg"/>\n<img id="worldmapfloor" src="assets/earthmap1.jpg"/>\n</a-assets>'
     +'\n<a-sky src="#sky"></a-sky>'
     +'\n<a-plane material="color:#FFFFFF; src: #worldmapfloor;" rotation="-90 0 0" scale="360 180 0" class="not-clickable"></a-plane>'
     +'\n<a-entity geometry="primitive: plane;" class="not-clickable" position="0 0.01 0" rotation="-90 0 0" scale="360 180 0" material="color: yellow; shader: flat" geojson="src: #geo-json; topologyObject: countries; projection: geoEquirectangular" class="not-clickable"></a-entity>'
