@@ -28,11 +28,15 @@
 
      
 
-       <a-entity geometry="primitive: sphere; radius: 10" position="0 0 -25" material="color: yellow; shader: flat" 
+      
+         
+        <a-entity  id="earth" rotation="0 -270 0" position="0 0 -25" scale="0.1 0.1 0.1" globe="globe-image-url: https://upload.wikimedia.org/wikipedia/commons/0/04/Solarsystemscope_texture_8k_earth_daymap.jpg;">
+        	 <a-entity geometry="primitive: sphere; radius: 10"  material="color: yellow; shader: flat" 
          geojson="src: #geo-json; topologyObject: countries; projection: geoEquirectangular" >
        </a-entity>
-         
-        <a-entity  id="earth" rotation="0 -270 0" position="0 0 -25" scale="0.1 0.1 0.1" globe="globe-image-url: https://upload.wikimedia.org/wikipedia/commons/0/04/Solarsystemscope_texture_8k_earth_daymap.jpg;"></a-entity>
+        </a-entity>
+
+
    </a-scene>
 
 
