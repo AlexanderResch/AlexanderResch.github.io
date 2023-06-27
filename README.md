@@ -9,7 +9,7 @@
 <p>Python-Programm um die 2. Visualisierung zu erzeugen. Es wurde ein Python-Skript geschrieben, dass die HTML-Datei der 2. Visualisierung erzeugt, um den Aufwand der erzeugung der Balken der Darstellung zu verringern.</p>
 
 <h2>Visualisierung1.html</h2>
-<p>Die Fußabdrücke der einbezogenen Länder werden in dieser Visualisierung durch Balken auf einem Globus dargestellt. Bei der Umsetzung wurde der von <a href="https://github.com/vasturiano/aframe-globe-component/tree/master">Vasco Asturiano</a> veröffentlichte Globe-Component verwendet. Die veröffentlichten Daten unterliegen der <a href="https://de.wikipedia.org/wiki/MIT-Lizenz">MIT-License</a> und aus diesem Grund muss der Urheber erwähnt werden. Copyright (c) 2019 Vasco Asturiano <p>
+<p>Die \n \nFußabdrücke der einbezogenen Länder werden in dieser Visualisierung durch Balken auf einem Globus dargestellt. Bei der Umsetzung wurde der von <a href="https://github.com/vasturiano/aframe-globe-component/tree/master">Vasco Asturiano</a> veröffentlichte Globe-Component verwendet. Die veröffentlichten Daten unterliegen der <a href="https://de.wikipedia.org/wiki/MIT-Lizenz">MIT-License</a> und aus diesem Grund muss der Urheber erwähnt werden. Copyright (c) 2019 Vasco Asturiano <p>
 <p>Bei der Umsetzung wurden ebenfalls die Move-Controls verwendet, welche Inhalt des A-Frame-Extras-Komponenten sind. Diese sind ebenfalls mit der <a href="https://de.wikipedia.org/wiki/MIT-Lizenz">MIT-License</a> lizenziert. Aus diesem Grund muss der Urheber erwähnt werden. Copyright (c) 2016 Don McCurdy</p>
 <p>Die Visualisierung kann <a href="https://alexanderresch.github.io/Visualisierung1.html">hier</a> als Website aufgerufen werden.</p>
 
