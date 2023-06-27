@@ -9,7 +9,7 @@
 <p>Python-Programm um die 2. Visualisierung zu erzeugen. Es wurde ein Python-Skript geschrieben, dass die HTML-Datei der 2. Visualisierung erzeugt, um den Aufwand der erzeugung der Balken der Darstellung zu verringern.</p>
 
 <h2>Visualisierung1.html</h2>
-<p>Die \n \nFußabdrücke der einbezogenen Länder werden in dieser Visualisierung durch Balken auf einem Globus dargestellt. Bei der Umsetzung wurde der von <a href="https://github.com/vasturiano/aframe-globe-component/tree/master">Vasco Asturiano</a> veröffentlichte Globe-Component verwendet. Die veröffentlichten Daten unterliegen der <a href="https://de.wikipedia.org/wiki/MIT-Lizenz">MIT-License</a> und aus diesem Grund muss der Urheber erwähnt werden. Copyright (c) 2019 Vasco Asturiano <p>
+<p>Die Fußabdrücke der einbezogenen Länder werden in dieser Visualisierung durch Balken auf einem Globus dargestellt. Bei der Umsetzung wurde der von <a href="https://github.com/vasturiano/aframe-globe-component/tree/master">Vasco Asturiano</a> veröffentlichte Globe-Component verwendet. Die veröffentlichten Daten unterliegen der <a href="https://de.wikipedia.org/wiki/MIT-Lizenz">MIT-License</a> und aus diesem Grund muss der Urheber erwähnt werden. Copyright (c) 2019 Vasco Asturiano <p>
 <p>Bei der Umsetzung wurden ebenfalls die Move-Controls verwendet, welche Inhalt des A-Frame-Extras-Komponenten sind. Diese sind ebenfalls mit der <a href="https://de.wikipedia.org/wiki/MIT-Lizenz">MIT-License</a> lizenziert. Aus diesem Grund muss der Urheber erwähnt werden. Copyright (c) 2016 Don McCurdy</p>
 <p>Die Visualisierung kann <a href="https://alexanderresch.github.io/Visualisierung1.html">hier</a> als Website aufgerufen werden.</p>
 
@@ -47,10 +47,10 @@
 <p>to use, copy, modify, merge, publish, distribute, sublicense, and/or sell</p>
 <p>copies of the Software, and to permit persons to whom the Software is</p>
 <p>furnished to do so, subject to the following conditions:</p>
-<p>\n</p>
+<p></br>/p>
 <p>The above copyright notice and this permission notice shall be included in all</p>
 <p>copies or substantial portions of the Software.</p>
-<p>\n</p>
+<p></br></p>
 <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR</p>
 <p>IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,</p>
 <p>FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE</p>
@@ -65,16 +65,16 @@
 <p></br></p>
 <p>   1. Redistributions of source code must retain the above copyright</p>
 <p>      notice, this list of conditions and the following disclaimer.</p>
-<p>\n</p>
+<p></br></p>
 <p>   2. Redistributions in binary form must reproduce the above</p>
 <p>      copyright notice, this list of conditions and the following</p>
 <p>      disclaimer in the documentation and/or other materials provided</p>
 <p>      with the distribution.</p>
-<p>\n</p>
+<p></br></p>
 <p>   3. Neither the name of Google Inc. nor the names of its</p>
 <p>      contributors may be used to endorse or promote products derived</p>
 <p>      from this software without specific prior written permission.</p>
-<p>\n</p>
+<p></br></p>
 <p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS</p>
 <p>"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT</p>
 <p>LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR</p>
