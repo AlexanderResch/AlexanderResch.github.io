@@ -16,7 +16,7 @@
 
 <h2>Visualisierung2.html</h2>
 <p>In dieser Visualisierung wird der ökologische Fußabdruck der berücksichtigten Länder im Layout einer Landkarte auf dem Boden mit Balken in der höhe des Fußabdrucks abgebildet. Dem Benutzer ist es möglich durch den Blick auf die Balken, in die genaue höhe des Fußabdrucks einzusehen. Diese Datei wurde durch ein Python-Programm erzeugt, welches sich in der Datei "createVS.py" befindet.</p>
-<p>Bei der Umsetzung wurden die Move-Controls verwendet, welche Inhalt des A-Frame-Extras-Komponenten sind. Diese sind mit der <a href="https://de.wikipedia.org/wiki/MIT-Lizenz">MIT-License lizenziert</a>. Aus diesem Grund muss der Urheber erwähnt werden. Copyright (c) 2016 Don McCurdy</p>
+<p>Bei der Umsetzung wurden die Move-Controls verwendet, welche Inhalt des A-Frame-Extras-Komponenten sind. Diese sind mit der <a href="https://de.wikipedia.org/wiki/MIT-Lizenz">MIT-License</a> lizenziert. Aus diesem Grund muss der Urheber erwähnt werden. Copyright (c) 2016 Don McCurdy</p>
 <p>Die Visualisierung kann <a href="https://alexanderresch.github.io/Visualisierung2.html">hier</a> als Website aufgerufen werden.</p>
 
 
