@@ -47,10 +47,10 @@
 <p>to use, copy, modify, merge, publish, distribute, sublicense, and/or sell</p>
 <p>copies of the Software, and to permit persons to whom the Software is</p>
 <p>furnished to do so, subject to the following conditions:</p>
-<p></p>
+<p>\n</p>
 <p>The above copyright notice and this permission notice shall be included in all</p>
 <p>copies or substantial portions of the Software.</p>
-<p></p>
+<p>\n</p>
 <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR</p>
 <p>IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,</p>
 <p>FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE</p>
@@ -62,19 +62,19 @@
 <p>Redistribution and use in source and binary forms, with or without</p>
 <p>modification, are permitted provided that the following conditions are</p>
 <p>met:</p>
-<p></p>
+<p>\n</p>
 <p>   1. Redistributions of source code must retain the above copyright</p>
 <p>      notice, this list of conditions and the following disclaimer.</p>
-<p>      </p>
+<p>\n</p>
 <p>   2. Redistributions in binary form must reproduce the above</p>
 <p>      copyright notice, this list of conditions and the following</p>
 <p>      disclaimer in the documentation and/or other materials provided</p>
 <p>      with the distribution.</p>
-<p></p>
+<p>\n</p>
 <p>   3. Neither the name of Google Inc. nor the names of its</p>
 <p>      contributors may be used to endorse or promote products derived</p>
 <p>      from this software without specific prior written permission.</p>
-<p></p>
+<p>\n</p>
 <p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS</p>
 <p>"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT</p>
 <p>LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR</p>
