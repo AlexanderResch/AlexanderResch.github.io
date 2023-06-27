@@ -1,5 +1,5 @@
 import csv
-with open("Fussabdruck_konvertiert.csv") as csvdatei:
+with open("Fussabdruck.csv") as csvdatei:
     csv_reader_object = csv.DictReader(csvdatei)
     file= open("Visualisierung2.html","w")
     #Head und Sources
@@ -47,15 +47,28 @@ with open("Fussabdruck_konvertiert.csv") as csvdatei:
         elif(float(footprint)>6.7):
             color="#5e001c"
 
-            
-        #print("hallo "+country+ " " + footprint+" " +latitude+ " " + longitude)
-        #box-bars
-        #string='<a-box color="red" depth="0.3" height='+footprint+' width="0.3" position="'+latitude+ ' '+str_height_position +' '+ longitude+'"'+'\n event-set__enter1="_event: mouseenter; _target: #texthud1; value:'+country+'; visible: true; "'+'\nevent-set__enter2= "_event: mouseenter; _target: #texthud2; value:'+footprint+'; visible: true;"'+'\nevent-set__leave1="_event: mouseleave; _target:#texthud1; visible:false;"'+'\nevent-set__leave2="_event: mouseleave; _target:#texthud2; visible:false;"'+'\nclass="clickable"></a-box>'
-        #cylinder-bars
         string='<a-cylinder color="'+ color +'" height='+bar_height+' radius="0.25" position="'+longitude+ ' '+str_height_position +' '+ latitude+'"'+'\n event-set__enter1="_event: mouseenter; _target: #texthud1; value:'+country+'; visible: true; "'+'\nevent-set__enter2= "_event: mouseenter; _target: #texthud2; value:'+footprint + ' gha/person'+'; visible: true;"'+'\nevent-set__leave1="_event: mouseleave; _target:#texthud1; visible:false;"'+'\nevent-set__leave2="_event: mouseleave; _target:#texthud2; visible:false;"'+'\nclass="clickable">\n<a-text position="0 ' + text_position +' 0.35" class="not-clickable" color="black" width="3" align="center" rotation="-90 0 0" value="'+country+'" visible="true" baseline="top" wrap-count="12"> \n</a-cylinder>'
         file.write(string+'\n')
         print(row)
     
     file.write('</a-scene>\n</body>\n</html>')
+    #LICENSE
+    file.write('\n<!------------------------------------------------------------------------------\nIn this software the Movement-Controls of A-Frame-Extras-Component by Don McCurdy was used for movement controls'
+    	+'\nhttps://github.com/c-frame/aframe-extras\n\nThe A-Frame-Extras is licensed with MIT License:\n\nThe MIT License (MIT)\n\nCopyright (c) 2016 Don McCurdy'
+    	+'\nPermission is hereby granted, free of charge, to any person obtaining a copy'
+    	+'\nof this software and associated documentation files (the "Software"), to deal'
+    	+'\nin the Software without restriction, including without limitation the rights'
+    	+'\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell'
+    	+'\ncopies of the Software, and to permit persons to whom the Software is'
+    	+'\nfurnished to do so, subject to the following conditions:\n'
+    	+'\nThe above copyright notice and this permission notice shall be included in all'
+    	+'\ncopies or substantial portions of the Software.\n'
+    	+'\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR'
+    	+'\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,'
+    	+'\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE'
+    	+'\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER'
+    	+'\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,'
+    	+'\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE'
+    	+'\nSOFTWARE.\n------------------------------------------------------------------------------->')
     file.close()
 

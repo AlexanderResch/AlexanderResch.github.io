@@ -18,7 +18,7 @@
 <p>Die Visualisierung kann <a href="https://alexanderresch.github.io/Visualisierung2.html">hier</a> als Website aufgerufen werden.</p>
 
 
-<h2>Fussabdruck_konvertiert.csv</h2>
+<h2>Fussabdruck.csv</h2>
 <p>Dies ist der Datensatz, der in den Visualisierungen verwendet wird um die Balken zu erzeugen. Bei der Beschaffung der Daten wurde darauf geachtet, dass es sich um Open Data handelt. Insgesamt wurden im Datensatz 182 Länder berücksichtigt.</p>
 
 <h3>Spalten und Lizenzen</h3>
