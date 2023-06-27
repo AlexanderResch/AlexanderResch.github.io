@@ -62,7 +62,7 @@
 <p>Redistribution and use in source and binary forms, with or without</p>
 <p>modification, are permitted provided that the following conditions are</p>
 <p>met:</p>
-<p>\n</p>
+<p></br></p>
 <p>   1. Redistributions of source code must retain the above copyright</p>
 <p>      notice, this list of conditions and the following disclaimer.</p>
 <p>\n</p>
