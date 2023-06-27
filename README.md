@@ -47,7 +47,7 @@
 <p>to use, copy, modify, merge, publish, distribute, sublicense, and/or sell</p>
 <p>copies of the Software, and to permit persons to whom the Software is</p>
 <p>furnished to do so, subject to the following conditions:</p>
-<p></br>/p>
+<p></br></p>
 <p>The above copyright notice and this permission notice shall be included in all</p>
 <p>copies or substantial portions of the Software.</p>
 <p></br></p>
